@@ -1,16 +1,11 @@
-//Modules
-//CommonJs, every file is module(by default)
-//Module    -Encapsulated Code(only share minimum)
+const path = require("path");
+console.log(path.sep);
 
-const names = require("./4-names");
-console.log(names);
+const filePath = path.join("./conten", "1", "test.txt");
+console.log(filePath);
 
-const sayHi = require("./5-utils");
-const data = require("./6-alternative-flavor");
-console.log(data);
+const base = path.basename(filePath);
+console.log(base);
 
-sayHi("Chentao");
-sayHi(names.John);
-sayHi(names.Peter);
-sayHi(data.person.name);
-sayHi(data.item);
+const absolute = path.resolve(__dirname, "content", "1", "test.txt");
+console.log(absolute);
