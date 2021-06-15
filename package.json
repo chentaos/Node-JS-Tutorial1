@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-2021-06-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chentaos/Node-JS-Tutorial1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chentaos/Node-JS-Tutorial1/issues"
+  },
+  "homepage": "https://github.com/chentaos/Node-JS-Tutorial1#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "lodash": "^4.17.21"
+  }
+}
