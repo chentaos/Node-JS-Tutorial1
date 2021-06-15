@@ -4,7 +4,8 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/chentaos/Node-JS-Tutorial1#readme",
   "dependencies": {
-    "bootstrap": "^5.0.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
